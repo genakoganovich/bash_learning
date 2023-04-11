@@ -6,7 +6,7 @@ if [ "$#" -lt 1 ]; then
 fi
 
 file=$1
-for name in $(cat $file)
+for name in "$(cat ${file})"
 do 
-	echo "Hello, $name"
+	echo "Hello, ${name}!"
 done
