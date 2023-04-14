@@ -1,4 +1,2 @@
 #!/bin/bash
-f() {
-    echo "hello"
-}
+pwd ; whoami

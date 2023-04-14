@@ -1,7 +1,7 @@
 #!/bin/bash
 
 tarview() {
-    echo -n "Displaying contents of $1 "
+    echo -n "Displaying contents of $1 using case"
 
     case "${1##*.}" in
     tar)            
