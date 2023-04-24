@@ -1,8 +1,3 @@
 #!/bin/bash
-count=1
-cat myfile | while read line
-do
-    echo "Line $count: $line"
-    count=$(( $count + 1 ))
-done
-echo "Finished"
+echo "This is an error" >&2
+echo "This is normal output"

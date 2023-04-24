@@ -1,0 +1,4 @@
+ls: cannot access '–l': No such file or directory
+ls: cannot access 'xfile': No such file or directory
+ls: cannot access 'anotherfile': No such file or directory
+myfile
